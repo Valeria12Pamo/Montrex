@@ -1,0 +1,38 @@
+.principalportafolio{
+    background-color: white;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+    
+}
+
+.portafolio{
+    width: 1060px;
+    height: 900px;
+    background-color: rgba(9, 103, 211, 0.062);
+    display: flex;
+    flex-wrap: wrap;
+    border: solid black 2px;
+}
+
+.item{
+    background-color: white;
+    width: 260px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    margin-top: 40px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.item:hover{
+    border: solid 2px aqua;
+    transform: scale(1.1);
+}

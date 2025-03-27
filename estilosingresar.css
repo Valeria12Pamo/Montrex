@@ -1,0 +1,105 @@
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation-name: fondo;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-delay: 1s;
+    background-color: black;
+}
+
+@keyframes fondo{
+    0%{
+        background: linear-gradient(100deg, rgb(5, 31, 104), black);
+    }
+
+    50%{
+        background: linear-gradient(100deg, rgb(50, 3, 94), black);
+    }
+
+    100%{
+        background: linear-gradient(100deg, rgb(6, 18, 61), black);
+    }
+}
+
+.ingresar{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 550px;
+    border: solid white 2px;
+    animation-name: sombreado;
+    animation-duration: 12s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes sombreado{
+    0%{
+        box-shadow: rgb(241, 241, 241) 10px 10px 10px;
+    }
+
+    50%{
+        box-shadow: rgb(228, 20, 183) 10px 10px 10px;
+    }
+
+    100%{
+        box-shadow: rgb(15, 190, 243) 10px 10px 10px;
+    }
+}
+
+.opciones{
+    width: 97%;
+    height: 70px;
+    border-bottom: solid white 2px;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.registrarse{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+}
+
+.datos{
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cajatextoi{
+    width: 80%;
+    font-size: 20px;
+    margin-top: 30px;
+    display: flex;
+    justify-self: center;
+    
+}
+
+
+
+.botoningreso{
+    margin-top: 50px;
+    display: flex;
+    justify-self: center;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.recordar{
+    justify-self: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+}
