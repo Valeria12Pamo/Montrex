@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilosreportes.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>MONTREX</title>
+</head>
+<body>
+    <header>
+        <div>
+            <img src="img/logo.png" alt="" height="140px" width="160px">
+        </div>
+        <div class="titulo">
+            <H1>MONTREX</H1>
+        </div>
+        <div class="ingresar">
+            <a href="index.html">SALIR</a>
+
+        </div>
+
+    </header>
+    <nav>
+        <ul>
+            <li><a href="productos.html">Productos</a></li>
+            <li><a href="clientes.html">Clientes</a></li>
+            <li><a href="ventas.html">Ventas</a></li>
+            <li><a href="empleado.html">Empleado</a></li>
+            <li><a href="transportador.html">Transportador</a></li>
+            <li><a href="productoventa.html">Producto-venta</a></li>
+        </ul>
+    </nav>
+    <section class="principalproductos">
+        <div class="todo"> 
+            <div class="guardar">
+                <h2>Guardar</h2>
+            </div>
+            <form action="">
+                <div class="formulario">
+                    <div class="borde2">
+                  
+                        <div class="datos" style="border-radius: 100px 0px 0px 0px;">
+                            <h2 style="margin-top: 40px; margin-bottom: 20px;">Nombre</h2>
+                            <input type="text" placeholder="Nombre del producto" style="font-size: 25px;">
+                        </div>
+                        <div class="datos">
+                            <h2 style="margin-top: 40px; margin-bottom: 20px;">Categoria</h2>
+                            <select aria-placeholder="select" style="font-size: 25px; width: 80%; color: gray;">
+                                <option value="" disabled selected>Selecciona una categoria</option>
+                                <option value="opcion1">Gaming</option>
+                                <option value="opcion2">Componente para computadora</option>
+                                <option value="opcion3">Tecnoligía avanzada</option>
+                                <option value="opcion4">Almacenamiento</option>
+                                <option value="opcion5">Dispositivo portatil</option>
+                                <option value="opcion6">Perifericos</option>
+                            </select>
+                        </div>
+                        <div class="datos">
+                            <h2 style="margin-top: 40px; margin-bottom: 20px;">Precio</h2>
+                            <input type="number" placeholder="Precio del producto" style="font-size: 25px;">
+                        </div>
+                        <div class="datos">
+                            <h2 style="margin-top: 40px; margin-bottom: 20px;">Color</h2>
+                            <input type="color" style="font-size: 25px; width: 80%; height: 30%;">
+                        </div>
+                        <div class="datos">
+                            <h2 style="margin-top: 10px; margin-bottom: 10px;">Descripción</h2>
+                            <textarea placeholder="Descripción del producto..." style="text-align: left; vertical-align: top; width: 80%; height: 50%; font-size: 25px;"></textarea>
+                        </div>
+                        <div class="datos">
+                            <h2 style="margin-top: 40px; margin-bottom: 20px;">Fecha de registro</h2>
+                            <input type="date" style="font-size: 25px;">
+                        </div>
+                        <div class="datos">
+                            <h2 style="margin-top: 40px; margin-bottom: 20px;">Foto</h2>
+                            <input type="file" placeholder="Foto del producto" style="font-size: 15px;">
+                        </div>
+                        <div class="datos" style="border-radius: 0px 0px 100px 0px;">
+                            <h2 style="margin-top: 40px; margin-bottom: 20px;">Nivel de venta</h2>
+                            <input type="range" style="font-size: 25px; width: 80%;">
+                        </div>
+                   
+                    </div>
+                </div>
+            </form>
+        </div> 
+    </section>
+    <footer>   
+        <div>
+            <img src="img/redes.png" width="170px" height="80px">
+        </div>
+        <div class="enlace">
+            <h1>www.montrex.com</h1>
+        </div>
+        <div>
+            <img src="img/logo.png" width="120px" height="100px">
+        </div>
+    </footer>
+</body>
+</html>
